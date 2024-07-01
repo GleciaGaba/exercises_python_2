@@ -39,7 +39,7 @@ with open(chemin2, "r") as fichier:
     donnees = json.load(fichier)
     print(donnees)
 
-# Note: c'est possible aussi de créer un fichier (ou écraser s'il esxiter déjè un fichier avec le même nom)
+# Note: c'est aussi possible de créer un fichier (ou de l'écraser s'il existe déjà un fichier avec le même nom).
 
 donnees1 = {
     "non": "Jean",
