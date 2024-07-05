@@ -8,11 +8,12 @@ Path représentant les fichiers et les sous-répertoires dans le répertoire sp�
 
 Path.cwd().iterdir()
 
-#for file in Path.cwd().iterdir():
-    #print(file.name)
+"""for file in Path.cwd().iterdir():
+    print(file.name)"""
 
 p = [file for file in Path.cwd().iterdir() if file.is_dir()]
 p1 = [file for file in Path.cwd().iterdir() if file.is_file()]
-print(p)
-print(p1)
+# print(p)
+# print(p1)
+
 
